@@ -164,6 +164,7 @@ section.current>.unopened{
 	cursor: pointer;
 }
 .unopened .candles-msg,
+.unopened video,
 section.current>.unopened *{
 	visibility: 0;
 	opacity: 0;
