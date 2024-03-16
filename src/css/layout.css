@@ -115,11 +115,11 @@ section.current>.md_wrapp{
 	max-width: 70vw;
 	min-height: 357px;
 	max-height: 80vh;
-	
+
 }
 section.current>.fs_wrapp{
 	width: 100vw;
-	height: 100vh;	
+	height: 100vh;
 }
 
 
@@ -132,7 +132,7 @@ footer{
 	bottom: 0;
 	left: 0;
 	z-index: 100002;
-	width: auto;
+	width: 140px;
 	max-width: 80vw;
 	min-height: 50px;
 	max-height: 55px;
@@ -185,8 +185,8 @@ footer>div{
    nav
    ========================================================================== */
 	.latreralNav{
-		width: auto;
-		height: 5vh;
+		width: 3vh;
+		height: 10vh;
 		opacity: 0.3;
 	}
 	#nxt_btn{
@@ -199,7 +199,7 @@ footer>div{
 	/* =============================================================================
    sections
    ========================================================================== */
-	
+
 	/* =============================================================================
    objetos // paginas/// galleryWrapp
    ========================================================================== */
@@ -209,8 +209,8 @@ footer>div{
 		grid-template-columns: repeat(auto-fill, minmax(150px, 1fr) ) !important;
 		grid-auto-rows: 150px !important;
 	}
-	
-	
+
+
 	/* =============================================================================
    objetos // paginas/// picframe
    ========================================================================== */
@@ -248,7 +248,7 @@ footer>div{
 		width: 100%;
 		height: auto;
 		max-height: 100%;
-		
+
 	}
 	.modal-content{
 		width:  92vw; /* Could be more or less, depending on screen size */
@@ -262,7 +262,7 @@ footer>div{
 		height: 30px;
 		line-height: 30px;
 	}
-	
+
 	/* =============================================================================
    objetos // paginas/// prictureFrame
    ========================================================================== */
@@ -385,11 +385,11 @@ footer>div{
 /* tablet ipad (landscape) ----------- */
 @media only screen and (max-width : 320px) {
 /* Styles */
-	
+
 }
 /*pc  screen */
 @media only screen and (min-width : 1025px){
-	
+
 	.galleryWrapp{
 		-ms-grid-template-columns: repeat(auto-fill, minmax(250px, 1fr) ) !important;
 		-ms-grid-auto-rows: 250px !important;
@@ -410,10 +410,10 @@ footer>div{
 	#prv_btn{
 		left: 3vw;
 	}
-	
-	
-	
-	
+
+
+
+
 	/* =============================================================================
    objetos // paginas/// prictureFrame
    ========================================================================== */
@@ -424,8 +424,8 @@ footer>div{
 		grid-template-rows: 15vh minmax(570px, 80vh) repeat(auto-fill, minmax(90px, min-content) );*/
 	}
 
-	
-	
+
+
 	#teamPic{
 		top: 0;
 		left: 0;
@@ -448,9 +448,9 @@ footer>div{
 		object-fit: contain;
 		object-position: bottom left;
 	}
-	
-	
-	
+
+
+
 	.modal-content{
 		width:  92vw; /* Could be more or less, depending on screen size */
 		height: auto;
@@ -475,4 +475,4 @@ footer>div{
 	footer img.lnk{
 		height: 30px !important;
 	}
-} 
+}

@@ -159,7 +159,8 @@ function openGift(obj){
 }
 
 //first Start
-document.addEventListener("DOMContentLoaded", function() { 
+document.addEventListener("DOMContentLoaded", function() {
+
 	setCurrentPage(cpIndex);
 	size();
 	navBtns();
